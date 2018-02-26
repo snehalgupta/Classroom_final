@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #CFD8DC;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #607D8B;">
+         <children>
+            <Button fx:id="timetable" layoutX="15.0" layoutY="136.0" mnemonicParsing="false" onAction="#ttClick" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #2196F3;" text="Time -Table" />
+            <Button fx:id="myprof" layoutX="15.0" layoutY="176.0" mnemonicParsing="false" onAction="#myprofClick" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #B2FF59;" text="My Profile" />
+            <Button fx:id="myroo" layoutX="15.0" layoutY="215.0" mnemonicParsing="false" onAction="#myrooClick" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #2196F3;" text="Request Room-booking" />
+            <Button fx:id="fetchc" layoutX="14.0" layoutY="296.0" mnemonicParsing="false" onAction="#fetchcClick" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #2196F3;" text="Fetch Courses" />
+            <Button layoutX="10.0" layoutY="28.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="178.0" text="Welcome">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+            <Button fx:id="myroo1" layoutX="15.0" layoutY="258.0" mnemonicParsing="false" onAction="#myroo1Click" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #2196F3;" text="My Room Bookings" />
+         </children>
+      </Pane>
+      <Label layoutX="221.0" layoutY="205.0" prefHeight="32.0" prefWidth="113.0" text="My Courses :" />
+      <Button fx:id="name" layoutX="318.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: pink;" />
+      <Button layoutX="318.0" layoutY="70.0" mnemonicParsing="false" style="-fx-background-color: pink;" text="Current Semester : Second" />
+      <Button fx:id="emailid" layoutX="318.0" layoutY="103.0" mnemonicParsing="false" />
+      <ImageView fitHeight="116.0" fitWidth="85.0" layoutX="219.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:Regina.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="512.0" layoutY="18.0" mnemonicParsing="false" onAction="#logoutClick" prefHeight="25.0" prefWidth="74.0" text="LOGOUT" />
+      <JFXListView fx:id="list" layoutX="371.0" layoutY="173.0" prefHeight="224.0" prefWidth="178.0" />
+   </children>
+</AnchorPane>

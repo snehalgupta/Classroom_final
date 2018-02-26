@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="Pane6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="623.0" style="-fx-background-color: #CFD8DC;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.View_RoomsController">
+   <children>
+      <GridPane layoutX="38.0" layoutY="272.0" prefHeight="188.0" prefWidth="228.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="65.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#viewroom2Click" prefHeight="44.0" prefWidth="114.0" text="C03" GridPane.columnIndex="2" />
+            
+            <Button fx:id="btn4" mnemonicParsing="false" onAction="#viewroom4Click" prefHeight="44.0" prefWidth="114.0" text="C11" GridPane.rowIndex="1" />
+            <Button fx:id="btn5" mnemonicParsing="false" onAction="#viewroom5Click" prefHeight="44.0" prefWidth="114.0" text="C01" />
+            <Button fx:id="btn6" mnemonicParsing="false" onAction="#viewroom6Click" prefHeight="44.0" prefWidth="114.0" text="C12" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="btn7" mnemonicParsing="false" onAction="#viewroom7Click" prefHeight="44.0" prefWidth="114.0" text="C13" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="btn8" mnemonicParsing="false" onAction="#viewroom8Click" prefHeight="44.0" prefWidth="114.0" text="C21" GridPane.rowIndex="2" />
+            <Button fx:id="btn0" mnemonicParsing="false" onAction="#viewroom9Click" prefHeight="44.0" prefWidth="114.0" text="C02" GridPane.columnIndex="1">
+            <JFXPasswordField />
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn10" mnemonicParsing="false" onAction="#viewroom10Click" prefHeight="44.0" prefWidth="114.0" text="C22" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="btn11" mnemonicParsing="false" onAction="#viewroom11Click" prefHeight="44.0" prefWidth="114.0" text="C23" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="342.0" layoutY="282.0" prefHeight="188.0" prefWidth="228.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="68.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="65.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="btn12" mnemonicParsing="false" onAction="#viewroom12Click" prefHeight="44.0" prefWidth="114.0" text="LR3" GridPane.columnIndex="2" />
+            <Button fx:id="btn14" mnemonicParsing="false" onAction="#viewroom14Click" prefHeight="44.0" prefWidth="114.0" text="L21" GridPane.rowIndex="1" />
+            <Button fx:id="btn15" mnemonicParsing="false" onAction="#viewroom15Click" prefHeight="44.0" prefWidth="114.0" text="LR1" />
+            <Button fx:id="btn16" mnemonicParsing="false" onAction="#viewroom16Click" prefHeight="44.0" prefWidth="114.0" text="L23" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="btn19" mnemonicParsing="false" onAction="#viewroom19Click" prefHeight="44.0" prefWidth="114.0" text="LR2" GridPane.columnIndex="1" />
+            <Button fx:id="btn20" mnemonicParsing="false" onAction="#viewroom20Click" prefHeight="44.0" prefWidth="114.0" text="L22" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="38.0" layoutY="192.0" prefHeight="36.0" prefWidth="228.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="btn123" mnemonicParsing="false" onAction="#viewroom123Click" prefHeight="36.0" prefWidth="100.0" text="S01" />
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#viewroomClick" prefHeight="44.0" prefWidth="114.0" text="S02" GridPane.columnIndex="1" />
+            <Button fx:id="btn13" mnemonicParsing="false" onAction="#viewroomClick" prefHeight="44.0" prefWidth="114.0" text="S02" />
+            <Button fx:id="btn123" mnemonicParsing="false" onAction="#viewroom123Click" prefHeight="44.0" prefWidth="114.0" text="S01" />
+            <Button fx:id="C24" mnemonicParsing="false" onAction="#C24click" prefHeight="44.0" prefWidth="114.0" text="C24" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <JFXTimePicker fx:id="start" layoutX="95.0" layoutY="75.0" promptText="Enter The start Time" style="-fx-background-color: white;" />
+      <JFXDatePicker fx:id="date" layoutX="95.0" layoutY="36.0" promptText="Enter the Date" style="-fx-background-color: white;" />
+      <Button fx:id="back" layoutX="509.0" layoutY="434.0" mnemonicParsing="false" onAction="#backClick" prefHeight="36.0" prefWidth="100.0" style="-fx-background-color: re #8BC34Ad;" text="Back &lt;&lt;" />
+      <TextField layoutX="11.0" layoutY="75.0" prefHeight="25.0" prefWidth="76.0" promptText="Start Time" style="-fx-background-color: #BDBDBD;" text="Start Time" />
+      <TextField layoutX="11.0" layoutY="110.0" prefHeight="25.0" prefWidth="76.0" promptText="Start Time" style="-fx-background-color: #BDBDBD;" text="End Time" />
+      <JFXTimePicker fx:id="end" layoutX="95.0" layoutY="110.0" promptText="Enter The end Time" style="-fx-background-color: white;" />
+      <TextField layoutX="11.0" layoutY="36.0" prefHeight="25.0" prefWidth="76.0" promptText="Start Time" style="-fx-background-color: #BDBDBD;" text="Date" />
+      <Button fx:id="gob" layoutX="300.0" layoutY="110.0" mnemonicParsing="false" onAction="#goClick" styleClass="green" text="GO" />
+      <TextField layoutX="456.0" layoutY="167.0" style="-fx-background-color: #FF5252;" styleClass="#FF5252" text="Not Available" />
+      <TextField layoutX="456.0" layoutY="198.0" style="-fx-background-color: #aa8cc5;" text="Available" />
+      <TextField layoutX="491.0" layoutY="135.0" prefHeight="25.0" prefWidth="114.0" style="-fx-background-color: yellow;" text="Colour Code" />
+      <Button layoutX="362.0" layoutY="24.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="209.0" style="-fx-background-color: #9E9E9E;" text="VIEW ROOMS" />
+   </children>
+</AnchorPane>

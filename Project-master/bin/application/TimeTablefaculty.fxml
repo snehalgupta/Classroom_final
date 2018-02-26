@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pane3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="600.0" style="-fx-background-color: #CFD8DC;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TimeTableFacultyController">
+   <children>
+      <Pane prefHeight="477.0" prefWidth="200.0" style="-fx-background-color: #455A64;">
+         <children>
+            <Button fx:id="timetable" onAction="#ttClick" layoutX="15.0" layoutY="132.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: #B2FF59;" text="Time -Table" />
+            <Button fx:id="myroo" layoutX="15.0" layoutY="226.0" mnemonicParsing="false" onAction="#myrooClick" prefHeight="25.0" prefWidth="170.0" text="My Room Bookings" />
+            <Button layoutX="10.0" layoutY="28.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="178.0" text="Welcome">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+            <Button fx:id="myprof" layoutX="15.0" layoutY="179.0" mnemonicParsing="false" onAction="#myprofClick" prefHeight="25.0" prefWidth="170.0" text="My Profile" />
+         </children>
+      </Pane>
+      
+      <Button fx:id="back" onAction="#myprofClick" layoutX="518.0" layoutY="423.0" mnemonicParsing="false" text="Back &lt;&lt;" />
+      <RadioButton layoutX="219.0" layoutY="39.0" mnemonicParsing="false" text="MONDAY" />
+      <RadioButton layoutX="337.0" layoutY="39.0" mnemonicParsing="false" text="TUESDAY" />
+      <RadioButton layoutX="457.0" layoutY="39.0" mnemonicParsing="false" text="WEDNESDAY" />
+      <RadioButton layoutX="238.0" layoutY="230.0" mnemonicParsing="false" text="THURSDAY" />
+      <RadioButton layoutX="387.0" layoutY="230.0" mnemonicParsing="false" text="FRIDAY" />
+      <ListView fx:id="one" layoutX="209.0" layoutY="62.0" prefHeight="140.0" prefWidth="116.0" />
+      <ListView fx:id="two" layoutX="337.0" layoutY="62.0" prefHeight="140.0" prefWidth="116.0" />
+      <ListView fx:id="three" layoutX="470.0" layoutY="62.0" prefHeight="140.0" prefWidth="116.0" />
+      <ListView fx:id="four" layoutX="238.0" layoutY="247.0" prefHeight="140.0" prefWidth="116.0" />
+      <ListView fx:id="five" layoutX="387.0" layoutY="247.0" prefHeight="140.0" prefWidth="116.0" />
+   </children>
+</AnchorPane>

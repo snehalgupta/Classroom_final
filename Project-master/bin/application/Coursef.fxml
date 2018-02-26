@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:controller="application.CoursefController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CCFF99;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" style="-fx-background-color: pink;" text="COURSE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="62.0" style="-fx-background-color: pink;" text="Description">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="18.0" style="-fx-background-color: pink;" text="Faculty">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextArea layoutX="14.0" layoutY="108.0" prefHeight="109.0" prefWidth="264.0" style="-fx-background-color: white;" text="The Advanced Programming is a successor to the Introduction of Programming course. The main goal of this course is to prepare students to the challenge of building large-scale programs which multiple functional components, some of which could be designed/implemented independently. The course will use Java to to introduce students to concepts of object orientation, reusable code design, test-driven development, programming to an application-programming-interface, pattern oriented program design and implementation etc. At the end of the course the students are expected to be able to work in teams in order to develop large application programs starting from a reasonably well-defined application design with multiple independent components with well-defined interfaces. " />
+      <JFXTextArea layoutX="14.0" layoutY="231.0" prefHeight="146.0" prefWidth="370.0" style="-fx-background-color: white;" text="Students are able to demonstrate the knowledge of basic principles of Object Oriented Programming such as encapsulation (classes and objects), interfaces, polymorphism and inheritance; by implementing programs ranging over few hundreds lines of code.&#10;Implement basic event driven programming, exception handling, and threading. &#10;Students are able to analyze the problem in terms of use cases and create object oriented design for it. Students are able to present the design in UML.&#10;Students are able to select and use a few key design pattern to solve a given problem in hand.&#10;Students are able to use common tools for testing (e.g., JUnit), debugging, and source code control as an integral part of program development." />
+      <JFXTextField layoutX="116.0" layoutY="20.0" text="Advanced Programming" />
+      <JFXTextField layoutX="409.0" layoutY="20.0" style="-fx-background-color: white;" text="Mr. Vivek Kumar" />
+      <Label layoutX="326.0" layoutY="62.0" prefHeight="36.0" prefWidth="154.0" style="-fx-background-color: pink;" text="Class Timings">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextArea layoutX="325.0" layoutY="104.0" prefHeight="116.0" prefWidth="231.0" style="-fx-background-color: white;" text="Monday, Wednesday and Thursday: 11am-12pm in C21&#10;&#10;Tutorials:&#10;Monday 12-1 PM, CSE - 1,2,3,4; Venue : LR1, LR2, S01, S02&#10;Monday 12-1 PM, CSAM - 1,2; Venue: C03, C24&#10;Friday 12-1 PM, ECE; Venue: LR3&#10;&#10;Labs:&#10;Thursday, 12-1 PM, CSE - 1,2,3,4; Venue: L21,L22,L23&#10;Thursday, 12-1 PM, CSAM - 1,2; Venue: LR1, LR2&#10;Thursday, 10-11 AM, ECE; Venue: L21" />
+      <Button fx:id="back" onAction="#homepage1" layoutX="461.0" layoutY="292.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: red;" text="Back &lt;&lt;" />
+   </children>
+</AnchorPane>
+
+
